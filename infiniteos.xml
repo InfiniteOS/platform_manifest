@@ -15,8 +15,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   
+  <project path="device/common/sepolicy" name="platform_device_common_sepolicy" groups="pdk-fs" remote="inf" />
   <project path="external/noto-fonts" name="platform_external_noto-fonts" groups="pdk" remote="inf" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="inf" />
+  <project path="packages/apps/InfiniteOTA" name="platform_packages_apps_InfiniteOTA" groups="pdk-fs" remote="inf" />
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" groups="pdk-fs" remote="inf" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="inf" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="inf"/>
